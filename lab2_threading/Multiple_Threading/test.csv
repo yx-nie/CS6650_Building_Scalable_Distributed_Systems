@@ -1,0 +1,46 @@
+task, type, limitation, millionseconds
+Counter, Multi thread, 10,3
+Collections1, VectorSingleThread, 10,1
+Collections1, ArraySingleThread, 10,1
+Collections2, HashTableSingleThreading,  10,1
+Collections2, HashMapSingleThreading,  10,1
+Collections2, ConcurrentHashMapSingleThreading,  10,1
+Collections2, HashTableMultiThreading,  10,0
+Collections2, HashMapMultiThreading,  10,1
+Collections2, ConcurrentHashMapMultiThreading,  10,0
+Counter, Multi thread, 100,20
+Collections1, VectorSingleThread, 100,0
+Collections1, ArraySingleThread, 100,0
+Collections2, HashTableSingleThreading,  100,0
+Collections2, HashMapSingleThreading,  100,1
+Collections2, ConcurrentHashMapSingleThreading,  100,0
+Collections2, HashTableMultiThreading,  100,0
+Collections2, HashMapMultiThreading,  100,0
+Collections2, ConcurrentHashMapMultiThreading,  100,1
+Counter, Multi thread, 1000,121
+Collections1, VectorSingleThread, 1000,0
+Collections1, ArraySingleThread, 1000,1
+Collections2, HashTableSingleThreading,  1000,0
+Collections2, HashMapSingleThreading,  1000,0
+Collections2, ConcurrentHashMapSingleThreading,  1000,1
+Collections2, HashTableMultiThreading,  1000,0
+Collections2, HashMapMultiThreading,  1000,0
+Collections2, ConcurrentHashMapMultiThreading,  1000,0
+Counter, Multi thread, 10000,985
+Collections1, VectorSingleThread, 10000,1
+Collections1, ArraySingleThread, 10000,0
+Collections2, HashTableSingleThreading,  10000,1
+Collections2, HashMapSingleThreading,  10000,1
+Collections2, ConcurrentHashMapSingleThreading,  10000,1
+Collections2, HashTableMultiThreading,  10000,0
+Collections2, HashMapMultiThreading,  10000,0
+Collections2, ConcurrentHashMapMultiThreading,  10000,1
+Counter, Multi thread, 100000,7007
+Collections1, VectorSingleThread, 100000,4
+Collections1, ArraySingleThread, 100000,3
+Collections2, HashTableSingleThreading,  100000,4
+Collections2, HashMapSingleThreading,  100000,5
+Collections2, ConcurrentHashMapSingleThreading,  100000,5
+Collections2, HashTableMultiThreading,  100000,0
+Collections2, HashMapMultiThreading,  100000,0
+Collections2, ConcurrentHashMapMultiThreading,  100000,0
